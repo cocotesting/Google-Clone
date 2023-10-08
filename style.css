@@ -50,16 +50,17 @@
     text-decoration: underline;
 }
 
-.google{
+.cocgle{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 11%;
-    min-height: 92px;
-    max-height: 290px;
-    height: calc(100% - 560px);
+}
+
+.cocgle img {
+    height: 10vw;
 }
 
 .center{
@@ -120,7 +121,7 @@
     left:0;
 }
 
-#CS50{
+#COCO{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: rgb(125, 125, 125);
