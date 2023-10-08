@@ -63,6 +63,10 @@
     width: 30vw;
 }
 
+#image {
+    width: 30vw;
+}
+
 .center{
     width:100%;
     text-align: center;
@@ -240,6 +244,10 @@ table{
     }
 
     .image {
+        width: 60vw;
+    }
+
+    #image {
         width: 60vw;
     }
   }
