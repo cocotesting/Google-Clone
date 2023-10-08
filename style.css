@@ -107,7 +107,7 @@
     box-shadow: 0.5px 0.5px 2px 1px  #e2dede;
 }
 
-#HK{
+.HK{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: rgb(125, 125, 125);
@@ -121,7 +121,7 @@
     left:0;
 }
 
-#COCO{
+.COCO{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: rgb(125, 125, 125);
