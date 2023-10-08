@@ -59,8 +59,8 @@
     margin-top: 11%;
 }
 
-.cocgle .img {
-    height: 10vw;
+.image {
+    width: 30vw;
 }
 
 .center{
@@ -237,6 +237,10 @@ table{
 @media (max-width: 1049px) {
     .td3, #th2 {
       display: none;
+    }
+
+    .image {
+        width: 60vw;
     }
   }
 
