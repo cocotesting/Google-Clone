@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    font-family: arial,sans-serif
+  }
+
+.top {
+    display: flex;
+    height: 50px;
+    justify-content: right;
+}
+
+.top2 {
+    display: flex;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.top button{
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgb(87, 87, 87);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topbutton{
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+}
+
+.top button:hover {
+    text-decoration: underline;
+}
+
+.topbutton:hover {
+    text-decoration: underline;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.center{
+    width:100%;
+    text-align: center;
+}
+
+.search{
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    width: auto;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgb(87, 87, 87);
+}
+
+.search:hover {
+    border: solid rgb(211, 210, 210) 0.5px;;
+}
+
+.blank{
+    border:solid rgb(211, 210, 210) 0.5px;
+    border-radius: 30px;
+    width: 65%;
+    padding: 13px 20px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blank:hover{
+    box-shadow: 0.5px 0.5px 2px 1px  #e2dede;
+}
+
+.blank:focus{
+    outline: solid rgb(211, 210, 210) 0px;
+    box-shadow: 0.5px 0.5px 2px 1px  #e2dede;
+}
+
+#HK{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgb(125, 125, 125);
+    margin: 0;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    position:absolute;
+    background-color: rgb(238, 238, 238);
+    bottom: 30px;
+    left:0;
+}
+
+#CS50{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgb(125, 125, 125);
+    margin: 0;
+    border: solid rgb(211, 210, 210) 0.5px;
+    padding: 10px;
+    width: 100%;
+    background-color:  rgb(238, 238, 238);
+    position:absolute;
+    text-align: center;
+    bottom: 0;
+    left:0;
+}
+
+.title{
+    padding: 25px 0;
+    border-bottom: solid rgb(211, 210, 210) 0.5px;;
+    width: 100%;
+    margin: 0;
+    right:0;
+    left:0;
+    position:absolute;
+}
+
+.title p{
+    color: #d93025;
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+table{
+    padding: 100px 20px;
+    width: 79%;
+    margin-left:20px;
+    position:absolute;
+    font-family: arial,sans-serif;
+    color: #333;
+    text-align: left;
+}
+
+
+
+#th1{
+    font-weight: lighter;
+    padding: 15px 0;
+}
+
+#th2{
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+}
+
+.td1{
+    min-width: 178px;
+    max-width: 178px;
+    width:178px;
+    font-size: 13px;
+}
+
+.adblank{
+    border:solid rgb(211, 210, 210) 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width:100%;
+    max-width:575px;
+    min-width: 230px;
+    padding: 6px;
+    margin: 4px 0;
+}
+
+.adblank:focus{
+    outline: solid rgb(92, 148, 253) 0.5px;
+    box-shadow: 5px 2px -5px -2px  #e2dede;
+}
+
+.td3{
+    width:400px;
+    font-size: 11px;
+    color: rgb(87, 87, 87);
+    align-items: left;
+}
+
+@media (max-width: 1049px) {
+    .td3, #th2 {
+      display: none;
+    }
+  }
+
+a{
+    font-family:monospace;
+}
+
+.adsearch{
+    background-color: rgb(92, 148, 253);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    width: auto;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.adsearch:hover{
+    background-color: rgb(67, 133, 255);
+    outline: rgba(67, 133, 255, 0.781) 0.5px;
+}
